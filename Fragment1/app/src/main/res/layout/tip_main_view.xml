@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1번내용 구성-->
+<!--텍스트뷰를 겹치기 위해 FrameLayout 사용-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--    Adapter를 사용하여 텍스트뷰 표시-->
+    <TextView
+        android:id="@+id/tip_top_context"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/main_tip_list"
+        android:text="tip1"
+        android:textSize="20sp"/>
+    <!--    tip! 부분 표시-->
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Tip!"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"/>
+</FrameLayout>

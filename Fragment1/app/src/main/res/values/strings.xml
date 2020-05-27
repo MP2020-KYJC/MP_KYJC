@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment1</string>
+    <string name="fragment1">This is fragment #1dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</string>
+    <string name="TipList">간단 Tip 추천!</string>
+</resources>

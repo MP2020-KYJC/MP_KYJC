@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fragment2_1</string>
+    <string name="trash">#쓰레기</string>
+    <string name="interior">#인테리어</string>
+    <string name="Clothing">#옷 정리</string>
+</resources>
