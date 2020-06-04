@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--세로 스크롤 적용-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#FFFFFF">
+    <!--    스크롤뷰에는 뷰나 레이아웃을 하나 적용가능하므로 LinearLayout 사용-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--        1번 내용    Viewpager: scrollview랑 다르게 단계별로 넘기기 가능-->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/main_tip_top"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+        <!--        2번 내용-->
+        <TextView
+            android:id="@+id/lblFragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘의 요리추천"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/main_rcp_today"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="10dp"/>
+        <!--        3번 내용-->
+        <TextView
+            android:id="@+id/TipLIst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TipList"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+        <!--        간단하게 직접 구성했지만 후에 Adapter 설정해야할 것으로 보임-->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/main_tip_list"
+                    android:text="tip6"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
