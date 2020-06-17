@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,8 +26,10 @@ import java.util.ArrayList;
 
 
 public class Fragment4 extends Fragment {
-    private RecyclerView listview;
-    private rcpAdapter adapter;
+    private RecyclerView listview1;
+    private RecyclerView listview2;
+    IngredientAdapter adapter1;
+    private rcpAdapter adapter2;
     private Context mContext;
 //    Button ingredient_add, rfg_management;
     @Nullable
@@ -36,8 +40,8 @@ public class Fragment4 extends Fragment {
 //        ingredient_add = (Button)view.findViewById(R.id.rfg_button_ingredient_add);
 //        rfg_management = (Button)view.findViewById(R.id.rfg_button_rfg_management);
 
-        FloatingActionButton fab = view.findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        ImageButton next = view.findViewById(R.id.rfg_Button);
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MainActivity mainActivity = (MainActivity)getActivity();
@@ -45,31 +49,27 @@ public class Fragment4 extends Fragment {
             }
         });
 
-
+        ingredient_list(view);
         edit_list(view);
 
-//        ingredient_add.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                MainActivity mainActivity = (MainActivity)getActivity();
-//                mainActivity.onRfgFragmentChanged(0);
-//            }
-//        });
-//        rfg_management.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                MainActivity mainActivity = (MainActivity)getActivity();
-//                mainActivity.onRfgFragmentChanged(1);
-//            }
-//        });
 
         return view;
     }
-
+    private void ingredient_list(View view){
+        listview2 = view.findViewById(R.id.rfg_RecyclerView);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false);
+        listview2.setLayoutManager(layoutManager);
+        ArrayList<item_list> itemList = new ArrayList<item_list>();
+        itemList.add(new item_list(R.drawable.color1,"양파"));
+        itemList.add(new item_list(R.drawable.color2,"상추"));
+        itemList.add(new item_list(R.drawable.color3,"배추"));
+        adapter1 = new IngredientAdapter(mContext, itemList, onClickItem);
+        listview2.setAdapter(adapter1);
+    }
     private void edit_list(View view){
-        listview = view.findViewById(R.id.rgh_RecyclerView_rcp_list);
+        listview1 = view.findViewById(R.id.rgh_RecyclerView_rcp_list);
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(mContext, 3);
-        listview.setLayoutManager(layoutManager);
+        listview1.setLayoutManager(layoutManager);
 //        DB구현부분
         ArrayList<item_list> itemList = new ArrayList<item_list>();
         itemList.add(new item_list(R.drawable.color1,"토스트"));
@@ -92,8 +92,8 @@ public class Fragment4 extends Fragment {
         itemList.add(new item_list(R.drawable.color3,"김치찌개"));
 //        여기까지
 
-        adapter = new rcpAdapter(mContext, itemList, onClickItem);
-        listview.setAdapter(adapter);
+        adapter2 = new rcpAdapter(mContext, itemList, onClickItem);
+        listview1.setAdapter(adapter2);
     }
     private View.OnClickListener onClickItem = new View.OnClickListener() {
         @Override
