@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tab_1">인기</string>
+    <string name="tab_2">채소/과일</string>
+    <string name="tab_3">육류</string>
+    <string name="tab_4">수산물</string>
+    <string name="tab_5">곡물/견과류</string>
+    <string name="tab_6">양념/소스</string>
+    <string name="tab_7">가공/유제품</string>
+    <string name="tab_8">기타</string>
+</resources>
