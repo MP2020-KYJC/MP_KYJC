@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Custom ActionBar</string>
+    <!--현서-->
+    <string name="search_hint">메뉴, 재료, 해시태그로 검색해보세요.</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <!--찬영 Fragment1-->
+    <string name="Main_rcp_first_txt">오늘의 요리추천!</string>
+    <string name="Main_tip_second_txt">간단 Tip 추천!</string>
+    <!--찬영 Fragment2_1-->
+    <string name="tip_trash">#쓰레기</string>
+    <string name="tip_interior">#인테리어</string>
+    <string name="tip_clothing">#옷 정리</string>
+    <!--찬영 Fragment3-->
+    <string name="rcp_eating_alone">#혼밥</string>
+    <string name="rcp_drinking_alone">#혼술</string>
+    <string name="rcp_snack">#간식</string>
+
+</resources>
