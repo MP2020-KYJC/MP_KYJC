@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainColor">#EB1A1A</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#222222</color>
+    <color name="input_register">#222222</color>
+    <color name="input_register_bg">#ffffff</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="drawer_header_background">#C0F384D4</color>
+    <!--찬영 Fragment2_1 And Fragment3-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#F6F6F6</color>
+    <color name="iconGray">#6C6C6C</color>
+    <!--    dialog 부분-->
+    <color name="dialogBackground">#FFBABA</color>
+    <color name="dialogTitle">#FF6767</color>
+    <color name="dialogTitleText">#FFFFFF</color>
+
+    <color name="lightYellow">#E6D49C</color>
+</resources>

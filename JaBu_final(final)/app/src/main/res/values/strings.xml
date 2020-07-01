@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">JaBu</string>
+    <string name="hint_name">성명을 입력하세요</string>
+    <string name="hint_email">이메일을 입력하세요</string>
+    <string name="hint_phone">핸드폰 번호를 입력하세요</string>
+    <string name="hint_join_id">ID를 입력하세요</string>
+    <string name="hint_join_pw">Password를 입력하세요</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_pw">Password</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_join">회원가입</string>
+    <string name="btn_info">추가 정보 입력</string>
+    <string name="search_hint">메뉴, 재료, 해시태그로 검색해보세요.</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <!--찬영 Fragment1-->
+    <string name="Main_rcp_first_txt">인기 레시피</string>
+    <string name="Main_tip_second_txt">간단 Tip 추천!</string>
+    <string name="Main_rcp_third_txt">오늘의 요리추천!</string>
+    <!--    tip_list-->
+    <string name="tip_room_clean">#방청소</string>
+    <string name="tip_bathroom_clean">#욕실청소</string>
+    <string name="tip_food">#음식</string>
+    <string name="tip_trash">#쓰레기</string>
+    <string name="tip_arrangement">#정리</string>
+    <string name="tip_toilet">#화장실</string>
+    <string name="tip_Daiso">#다이소</string>
+    <string name="tip_Laundry">#빨래</string>
+
+    <!--찬영 Fragment3-->
+    <string name="rcp_eating_alone">#혼밥</string>
+    <string name="rcp_noodle">#면</string>
+    <string name="rcp_snack">#간단</string>
+    <string name="rcp_taste">#입맛</string>
+    <string name="rcp_pan">#후라이팬</string>
+    <!--    재료 첫번째-->
+    <string name="dialog_titlebar">재료 관리</string>
+    <!--    재료 두번째-->
+    <string name="tab_1">인기</string>
+    <string name="tab_2">채소/과일</string>
+    <string name="tab_3">육류</string>
+    <string name="tab_4">수산물</string>
+    <string name="tab_5">곡물/견과류</string>
+    <string name="tab_6">양념/소스</string>
+    <string name="tab_7">가공/유제품</string>
+    <string name="tab_8">기타</string>
+
+    <string name="Tip">Tip</string>
+    <string name="like_textView">좋아요한 레시피!</string>
+</resources>
