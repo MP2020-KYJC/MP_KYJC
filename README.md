@@ -39,8 +39,15 @@ This includes living tips, cooking recipes, and food ingredients management.
 4. Refrigerator: management ingredients user have & getting information about meal menu that user can make with user's ingredients
 
 ## App Details
-![KakaoTalk_20200711_112123045(./app_images/KakaoTalk_20200711_112123045.jpg)
-
+- splash screen
+<img src="./app_images/splach.jpg"  width="288" height="608">
+- login
+<p float='left>
+          <img src="./app_images/login01.jpg"  width="288" height="608">
+          <img src="./app_images/login02.jpg"  width="288" height="608">
+          <img src="./app_images/login03.jpg"  width="288" height="608">
+          <img src="./app_images/login04.jpg"  width="288" height="608">
+</p>
 
 # Demo Video
 You can watch the demo video here.   
