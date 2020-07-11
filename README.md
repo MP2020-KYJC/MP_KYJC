@@ -39,15 +39,66 @@ This includes living tips, cooking recipes, and food ingredients management.
 4. Refrigerator: management ingredients user have & getting information about meal menu that user can make with user's ingredients
 
 ## App Details
+
 - splash screen
-<img src="./app_images/splach.jpg"  width="288" height="608">
+<img src="./app_images/splach.jpg"  width="205" height="430">
+
 - login
-<p float='left>
-          <img src="./app_images/login01.jpg"  width="288" height="608">
-          <img src="./app_images/login02.jpg"  width="288" height="608">
-          <img src="./app_images/login03.jpg"  width="288" height="608">
-          <img src="./app_images/login04.jpg"  width="288" height="608">
+<p float='left'>
+          <img src="./app_images/login01.jpg"  width="205" height="430">
+          <img src="./app_images/login02.jpg"  width="205" height="430">
+          <img src="./app_images/login03.jpg"  width="205" height="430">
+          <img src="./app_images/login04.jpg"  width="205" height="430">
 </p>
+
+- register
+<p float='left'>
+          <img src="./app_images/register01.jpg"  width="205" height="430">
+          <img src="./app_images/register02.jpg"  width="205" height="430">
+          <img src="./app_images/register03.jpg"  width="205" height="430">
+</p>
+
+- recommendation tab
+<img src="./app_images/main_recommend.jpg"  width="205" height="430">
+
+- tips tab
+<img src="./app_images/main_tip.jpg"  width="205" height="430">
+
+- recipe tab
+<img src="./app_images/main_recipe.jpg"  width="205" height="430">
+
+- my refrigerator tab
+<img src="./app_images/main_refrigerator.jpg"  width="205" height="430">
+
+- recipe page
+<p float='left'>
+          <img src="./app_images/recipeEX01.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX02.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX03.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX04.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX05.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX06.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX07.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX08.jpg"  width="205" height="430">
+          <img src="./app_images/recipeEX09.jpg"  width="205" height="430">
+</p>
+
+- tips page
+<p float='left'>
+          <img src="./app_images/tipEX01.jpg"  width="205" height="430">
+          <img src="./app_images/tipEX02.jpg"  width="205" height="430">
+          <img src="./app_images/tipEX03.jpg"  width="205" height="430">
+          <img src="./app_images/tipEX04.jpg"  width="205" height="430">
+</p>
+
+- refrigerator page
+<p float='left'>
+          <img src="./app_images/refrigerator_ingredient_list.jpg"  width="205" height="430">
+          <img src="./app_images/refrigerator_ingredient_remove.jpg"  width="205" height="430">
+          <img src="./app_images/tipEX03.jpg"  width="205" height="430">
+          <img src="./app_images/tipEX04.jpg"  width="205" height="430">
+</p>
+
 
 # Demo Video
 You can watch the demo video here.   
